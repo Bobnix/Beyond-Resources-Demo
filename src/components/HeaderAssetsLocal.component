@@ -1,0 +1,4 @@
+<apex:component >
+	<apex:stylesheet value="http://localhost:8080/css/style.css" />
+	<apex:stylesheet value="http://localhost:8080/css/reset.css" />
+</apex:component>

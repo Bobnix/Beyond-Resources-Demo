@@ -1,0 +1,4 @@
+<apex:component >
+	<apex:stylesheet value="{!URLFOR($Resource.ResourceBundle, 'static/css/style.css')}" />
+	<apex:stylesheet value="{!URLFOR($Resource.ResourceBundle, 'static/css/reset.css')}" />
+</apex:component>

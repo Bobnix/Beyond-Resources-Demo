@@ -1,0 +1,9 @@
+<apex:page showHeader="true" sidebar="true">
+	<c:HeaderAssetsLocal rendered="{!$Setup.Development_Mode__c.Use_Local_Resources__c}" />
+	<c:HeaderAssetsResource rendered="{!NOT($Setup.Development_Mode__c.Use_Local_Resources__c)}" />
+	
+	
+
+	<c:FooterAssetsLocal rendered="{!$Setup.Development_Mode__c.Use_Local_Resources__c}" />
+	<c:FooterAssetsResource rendered="{!NOT($Setup.Development_Mode__c.Use_Local_Resources__c)}" />
+</apex:page>

@@ -1,0 +1,5 @@
+<apex:component >
+	<script src="{!URLFOR($Resource.ResourceBundle, 'static/js/basic.js')}" ></script>
+	<script src="{!URLFOR($Resource.ResourceBundle, 'static/js/jquery.min.js')}" ></script>
+	<script src="{!URLFOR($Resource.ResourceBundle, 'static/js/lodash.min.js')}" ></script>
+</apex:component>

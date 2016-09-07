@@ -1,0 +1,5 @@
+<apex:component >
+	<script src="http://localhost:8080/js/basic.js" ></script>
+	<script src="http://localhost:8080/js/jquery.min.js" ></script>
+	<script src="http://localhost:8080/js/lodash.min.js" ></script>
+</apex:component>
