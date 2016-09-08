@@ -1,5 +1,17 @@
-$primary-color: green;
+$primary-color: #AA3939;
+$primary-lighter: #D46A6A;
+$primary-darker: #801515;
 
-.red-text{
-	color: $primary-color;
+body{
+	background-color: $primary-lighter;
+	width: 100%;
+}
+
+#wizard{
+	border: 2px solid $primary-darker;
+
+	ul{
+		margin: auto;
+		width: 75%
+	}
 }
